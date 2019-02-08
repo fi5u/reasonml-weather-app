@@ -771,6 +771,10 @@
   dependencies:
     jest "^23.5.0"
 
+"@glennsl/bs-json@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@glennsl/bs-json/-/bs-json-3.0.0.tgz#b4e1cf6612270a8dd7287a8a71ebe17e8f0fb683"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
