@@ -1,3 +1,3 @@
 ### Weather app built with Reason
 
-#### Following [this tutorial](https://dev.to/jlewin_/reasonml-getting-started-53gi)
+#### Based on [this tutorial](https://dev.to/jlewin_/reasonml-getting-started-53gi)

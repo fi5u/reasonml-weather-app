@@ -1,5 +1,44 @@
-// Load the weather data api key from .env file
+/**
+  JSON RESPONSE:
+  {
+    "coord": {
+      "lon": float,
+      "lat": float,
+    },
+    "weather": [
+      {"id": int, "main": string, "description": string, "icon": string},
+    ],
+    "base": string,
+    "main": {
+      "temp": float,
+      "pressure": int,
+      "humidity": int,
+      "temp_min": float,
+      "temp_max": float,
+    },
+    "visibility": int,
+    "wind": {
+      "speed": int,
+    },
+    "clouds": {
+      "all": int,
+    },
+    "dt": int,
+    "sys": {
+      "type": int,
+      "id": int,
+      "message": float,
+      "country": string,
+      "sunrise": int,
+      "sunset": int,
+    },
+    "id": int,
+    "name": string,
+    "cod": int,
+  };
+ */
 [@bs.val]
+// Load the weather data api key from .env file
 external weatherdataApiKey: string =
   "process.env.REACT_APP_WEATHERDATA_API_KEY";
 
